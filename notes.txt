@@ -1,0 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+<Router>
+    <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/sobre' element={<Sobre />} />
+    </Routes>
+</Router>
+
+¡Alternativa correcta! path se utiliza para definir la ruta que se debe coincidir con la URL actual para renderizar el componente especificado en el prop element; element se utiliza para especificar el componente que debe ser renderizado cuando la ruta definida por la propiedad path coincide con la URL actual...
+
+¿Cuál es la principal diferencia entre una aplicación tradicional y una single page application (SPA)?
+
+Alternativa correta
+Una aplicación single page application hace apenas una requisición para el servidor, que regresa un archivo html, y quien es responsable por exhibir el contenido son los componentes javascript. Ya una aplicación tradicional hace una requisición y recibe todo el archivo html de esa misma requisición.
+
+
+¡Alternativa correcta! La intención con esa estrategia es traer una experiencia más fluida a los usuarios que utilizarán nuestra aplicación.
