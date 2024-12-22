@@ -1,4 +1,5 @@
 import ListPosts from '../components/ListPosts';
+import ListCategories from '../components/ListCategories';
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       </div>
 
       {/* Aquí es necesario el espacio entre la llave } y /> */}
+      <ListCategories />
       <ListPosts url={"/posts"} />
       
     </main>
