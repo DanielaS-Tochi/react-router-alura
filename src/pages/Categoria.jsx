@@ -19,7 +19,6 @@ const Categoria = () => {
         })
     }, [id])
 
-
     return (
         <>
             <div className='container'>
